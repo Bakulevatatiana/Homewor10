@@ -37,10 +37,8 @@ class Homewor10 {
          if (os == 0 && year < 2015) {
             System.out.println("Установите облегченную версию приложения для IOS по ссылке");
         return;}}
-
     public static void getDelivery (int deliveryDistance) {
             double d=(deliveryDistance-20)/40+1;
-
             System.out.println(Math.ceil(d));
                 return;
             }
